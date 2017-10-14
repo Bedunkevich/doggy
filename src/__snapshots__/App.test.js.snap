@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Doggy tests Expect App toMatchSnapshot 1`] = `
+<div
+  class="App-main"
+>
+  <div
+    class="App-main__leftbar"
+  >
+    <div>
+      Loading...
+    </div>
+  </div>
+  <div
+    class="App-main__image-galery"
+  >
+    <div>
+      Select the breed
+    </div>
+  </div>
+</div>
+`;

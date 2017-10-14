@@ -1,0 +1,60 @@
+.App-main__leftbar {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  bottom: 0px;
+  width: 200px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+.App-main__image-galery {
+  position: absolute;
+  left: 200px;
+  top: 0px;
+  bottom: 0px;
+  right: 0px;
+  border-left: 1px solid #ccc;
+  overflow: hidden;
+}
+
+.App-main__image-galery > div {
+  font-size: 11px;
+  padding: 20px;
+  line-height: 200%;
+  width: 50%;
+}
+
+input.App-main__search  {
+  font-family: 'Roboto', -apple-system, Arial;
+  margin: 10px;
+  border-radius: 15px;
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, .2);
+  outline: none;
+  width: 160px;
+}
+
+.App-main__search-input {
+  background-color: rgba(255, 255, 255, 0.9);
+  position: sticky;
+  top: 0px;
+}
+
+.App-main__breed-list {
+  margin-bottom: 20px;
+}
+
+.App-main__breed-list > ul,
+.App-main__breed-list > ul > li > ul {
+  padding: 0px;
+  margin: 0px;
+  margin-left: 10px;
+}
+
+.App-main__breed-list > ul > li > ul > li {
+  list-style: square;
+  margin: 0px;
+  margin-left: 20px;
+}
+

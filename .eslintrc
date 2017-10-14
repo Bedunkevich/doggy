@@ -1,0 +1,4 @@
+{
+  "extends": "react-app, eslint:recommended",
+  "config_file": "/Users/thunder/node.dev/dogs/.eslintrc.json"
+}
